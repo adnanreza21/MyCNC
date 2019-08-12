@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mobile Basic CNC</string>
+    <string name="link1">
+        <a href="https://www.youtube.com/watch?v=ZgWYoFWTKJc">Basic CNC Programming</a>
+    </string>
+    <string name="link2">
+        <a href="https://www.youtube.com/watch?v=Sid-P8D7U6U">CNC Lathe Hand Final</a>
+    </string>
+    <string name="link3">
+        <a href="https://www.youtube.com/watch?v=L7LFz7ud71Q">CNC Lathe Hand Programming </a>
+    </string>
+    <string name="link4">
+        <a href="https://www.youtube.com/watch?v=jsw32mpJfoM">CNC Programming and CNC Lathe Process</a>
+    </string>
+    <string name="link5">
+        <a href="https://www.youtube.com/watch?v=fTPluUa6be0">CNC Lathe Setup Part 1</a>
+    </string>
+    <string name="link6">
+        <a href="https://www.youtube.com/watch?v=ph79hia_LTw">CNC Lathe Setup Part 2</a>
+    </string>
+    <string name="link7">
+        <a href="https://www.youtube.com/watch?v=95HZb8n7mVI">CNC Machine Programming in Hindi</a>
+    </string>
+    <string name="link8">
+        <a href="https://www.youtube.com/watch?v=QaZ-WWxRQBw">World Largest Lathe Machine Operation Video</a>
+    </string>
+    <string name="materi_1">Materi 1</string>
+    <string name="materi_2">Materi 2</string>
+    <string name="materi">Materi</string>
+    <string name="materi_4">Materi 4</string>
+    <string name="mengidentifikasi_dan_menggunakan_mesin_bubut_cnc_tu_2a">Mengidentifikasi dan Menggunakan Mesin Bubut CNC TU-2A</string>
+    <string name="mengidentifikasi_dan_menggunakan_parameter_pemotongan_mesin_bubut_tu_2a">Menggunakan Parameter Pemotongan Mesin Bubut TU-2A</string>
+    <string name="menerapkan_dan_menggunakan_teknik_pemrograman_mesin_bubut_tu_2a">Menerapkan dan Menggunakan Teknik Pemrograman Mesin Bubut TU-2A</string>
+    <string name="menerapkan_dan_menggunakan_teknik_pemesinan_bubut_tu_2a">Menerapkan dan Menggunakan Teknik Pemesinan Bubut TU-2A</string>
+    <string name="nilaimu">Nilaimu :</string>
+    <string name="safarun_najib_dwi_atmoko">Safarun Najib Dwi Atmoko</string>
+    <string name="mahasiswa_universitas">Mahasiswa Universitas Negeri Yogyakarta, program studi Pendidikan Teknik Mesin-S1 angkatan 2015</string>
+    <string name="mobile_basic">Mobile Basic CNC adalah sebuah aplikasi pembelajaran berbasis android untuk materi pembelajaran CNC. Dengan adanya aplikasi ini, pengguna diharapkan bisa belajar materi CNC dengan baik dan efisien. Dimana pengguna dapat belajar dimanapun dan kapanpun.</string>
+
+</resources>

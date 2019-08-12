@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/materialgreen"
+    tools:context=".ResultQuizActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_alignParentTop="true"
+
+            android:background="@color/colorPrimary"
+            android:id="@+id/txt22"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="QUIZ"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_marginTop="@dimen/_70sdp"
+            android:gravity="center"
+            android:layout_below="@id/txt22"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_37sdp"
+            android:text="@string/nilaimu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textScore"/>
+        <TextView
+            android:layout_marginTop="@dimen/_50sdp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_below="@id/textScore"
+            android:id="@+id/nilaiakhir"
+            android:textSize="@dimen/_40sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginRight="@dimen/_80sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_below="@id/nilaiakhir"
+            android:id="@+id/but1"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/colorPrimary"
+            android:text="Try Again"
+            android:background="@drawable/custom_button"
+            android:layout_width="@dimen/_120sdp"
+            android:onClick="onClick"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>
