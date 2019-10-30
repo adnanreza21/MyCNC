@@ -16,9 +16,9 @@ public class ResultQuizActivity extends AppCompatActivity {
         TextView txtScore = (TextView) findViewById(R.id.nilaiakhir);
 
         Intent intent = getIntent();
-        double score = intent.getIntExtra("score", 0);
-        double a = 0.3;
-        txtScore.setText("" + score/a);
+        int score = intent.getIntExtra("score", 0);
+        int a = 4;
+        txtScore.setText("" + score*a);
 
     }
 

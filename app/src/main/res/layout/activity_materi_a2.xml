@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MateriA2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Metode Pemrograman"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="2. Metode Inkremental"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="Adalah suatu metode pemrograman dimana titik referensinya selalu berubah yaitu titik akhir menjadi titik referensi baruuntuk ukuran berikutnya. Metode pemrograman inkremental adalah sistem di mana titik referensi terhadap instruksi program berikutnya adalah dari titik akhir operasi pahat tersebut. Setiap bagian data dimensional diaplikasikan terhadap sistem sebagai jarak inkremen, diukur dari titik sebelumnya pada sumbu gerak yang aktif. Jadi dapat disimpulkan bahwa titik awal pada sistem inkremental selalu berpindah dengan berpedoman kepada “titik akhir lintasan akan menjadi titik awal lintasan berikutnya”."
+            android:textSize="@dimen/_12sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gbr2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="Keuntungan metode pemrograman inkremental adalah dalam banyak hal pembuatan program dari metode inkremental lebih mudah dibuat karena titik akhir sebagai referensi program berikutnya."
+            android:textSize="@dimen/_12sdp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="Kelemahan dari metode pemrograman inkremental adalah jika salah satu titik atau program diubah maka akan merubah keseluruhan program tersebut."
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+</ScrollView>

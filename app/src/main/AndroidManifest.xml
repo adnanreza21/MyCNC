@@ -9,24 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfilActivity"></activity>
-        <activity android:name=".SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MateriB4Activity"></activity>
+        <activity android:name=".MateriB3Activity" />
+        <activity android:name=".MateriB2Activity" />
+        <activity android:name=".MateriB1Activity" />
+        <activity android:name=".KodeBubutMainActivity" />
+        <activity android:name=".MateriAActivity" />
+        <activity android:name=".MateriA2Activity" />
+        <activity android:name=".MateriA1Activity" />
+        <activity android:name=".HomeBookActivity" />
+        <activity android:name=".LatihanActivity" />
+        <activity android:name=".Splash2Activity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Materi4Activity" />
-        <activity android:name=".Materi3Activity" />
-        <activity android:name=".Materi2Activity" />
-        <activity android:name=".Materi1Activity" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".ProfilActivity" />
+
         <activity android:name=".BookMainActivity" />
         <activity android:name=".BookActivity" />
         <activity android:name=".VideoActivity" />
         <activity android:name=".ResultQuizActivity" />
         <activity android:name=".QuizActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

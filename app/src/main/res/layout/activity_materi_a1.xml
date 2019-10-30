@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MateriA1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Metode Pemrograman"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="1. Metode Absolut"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="Adalah suatu metode pemrograman dimana titik referensinya tetap yaitu titik pertama dimulainya pemrograman, titik itulah yang dijadikan referensi. Metode pemrograman CNC absolut adalah sistem di mana semua perintah gerakan di dasarkan pada satu titik referensi, di mana titik awalnya disebut dengan titik nol (datum point). Titik nol dapat ditetapkan sebagai suatu titik di luar benda kerja atau pada sudut benda kerja. "
+            android:textSize="@dimen/_12sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gbr1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="Keuntungan metode absolut yaitu jika ada salah satu program yang diubah maka letak titik yang lain tidak berpengaruh, misalnya terjadi gangguan yang memaksa operator untuk menghentikan mesin, misalnya gangguan karena alat potong patah. Dalam hal terjadi gangguan, meja mesin harus digerakkan secara manual, lalu mengganti  alat potong, kemudian menyetel alat potong, mengembalikan nomor blok program aktif ke blok terjadinya gangguan, mengembalikan alat potong ke posisi terjadinya gangguan, baru mengaktifkan mesin. Dengan sistem absolut, alat potong akan kembali secara otomatis ke posisi terjadinya gangguan, karena alat potong akan bergerak sesuai dengan koordinat absolut yang diaktifkan, dan melanjutkan proses pemesinan mulai dari titik yang diinginkan."
+            android:textSize="@dimen/_12sdp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="Kelemahan dari metode absolut yaitu terkadang memerlukan pembuatan program yang lebih rumit karena titik acuan utama yaitu pada titik nol."
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+</ScrollView>

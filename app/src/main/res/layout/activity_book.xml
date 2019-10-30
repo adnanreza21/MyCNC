@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/materialgreen"
     tools:context=".BookActivity">
     <TextView
         android:background="@color/colorPrimary"
@@ -12,15 +13,90 @@
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="KI dan KD"
+        android:text="@string/silabus"
         android:textStyle="bold"
         android:textSize="@dimen/_20sdp"
         android:textColor="@color/white"/>
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdfView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </com.github.barteksc.pdfviewer.PDFView>
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:text="@string/a_kompetensi_dasar"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:text="@string/menerapkan_teknik"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:text="@string/b_indikator"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:text="@string/_1_menjelaskan_dasar"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:text="@string/_2_menulis_dasar_program_mesin_bubut_cnc"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:text="@string/c_tujuan_pembelajaran"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:text="@string/setelah_mempelajari_media_ini_diharapkan"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:text="@string/_1_siswa_mampu_menjelaskan_dasar_bagian_bagian_program_mesin_bubut_cnc"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:text="@string/_2_siswa_mampu_menulis_dasar_program_mesin_bubut_cnc"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>

@@ -1,29 +1,13 @@
 <resources>
-    <string name="app_name">Mobile Basic CNC</string>
+    <string name="app_name">CNC Mobile </string>
     <string name="link1">
-        <a href="https://www.youtube.com/watch?v=ZgWYoFWTKJc">Basic CNC Programming</a>
+        <a href="https://www.youtube.com/watch?v=jF4F8Zr2YO8">Modern High Speed CNC Lathe Machine Working, CNC Milling Machine Metal</a>
     </string>
     <string name="link2">
-        <a href="https://www.youtube.com/watch?v=Sid-P8D7U6U">CNC Lathe Hand Final</a>
+        <a href="https://www.youtube.com/watch?v=8o_lSq4rkwY">Mesin Bubut CNC Keren dan Canggih - Amazing Machine</a>
     </string>
-    <string name="link3">
-        <a href="https://www.youtube.com/watch?v=L7LFz7ud71Q">CNC Lathe Hand Programming </a>
-    </string>
-    <string name="link4">
-        <a href="https://www.youtube.com/watch?v=jsw32mpJfoM">CNC Programming and CNC Lathe Process</a>
-    </string>
-    <string name="link5">
-        <a href="https://www.youtube.com/watch?v=fTPluUa6be0">CNC Lathe Setup Part 1</a>
-    </string>
-    <string name="link6">
-        <a href="https://www.youtube.com/watch?v=ph79hia_LTw">CNC Lathe Setup Part 2</a>
-    </string>
-    <string name="link7">
-        <a href="https://www.youtube.com/watch?v=95HZb8n7mVI">CNC Machine Programming in Hindi</a>
-    </string>
-    <string name="link8">
-        <a href="https://www.youtube.com/watch?v=QaZ-WWxRQBw">World Largest Lathe Machine Operation Video</a>
-    </string>
+
+
     <string name="materi_1">Materi 1</string>
     <string name="materi_2">Materi 2</string>
     <string name="materi">Materi</string>
@@ -36,5 +20,15 @@
     <string name="safarun_najib_dwi_atmoko">Safarun Najib Dwi Atmoko</string>
     <string name="mahasiswa_universitas">Mahasiswa Universitas Negeri Yogyakarta, program studi Pendidikan Teknik Mesin-S1 angkatan 2015</string>
     <string name="mobile_basic">Mobile Basic CNC adalah sebuah aplikasi pembelajaran berbasis android untuk materi pembelajaran CNC. Dengan adanya aplikasi ini, pengguna diharapkan bisa belajar materi CNC dengan baik dan efisien. Dimana pengguna dapat belajar dimanapun dan kapanpun.</string>
+    <string name="silabus">SILABUS</string>
+    <string name="a_kompetensi_dasar">A.\tKOMPETENSI DASAR</string>
+    <string name="b_indikator">B.\tINDIKATOR</string>
+    <string name="c_tujuan_pembelajaran">C.\tTUJUAN PEMBELAJARAN</string>
+    <string name="menerapkan_teknik">Menerapkan teknik pemrograman mesin bubut CNC</string>
+    <string name="_1_menjelaskan_dasar">1.\tMenjelaskan dasar bagian-bagian program mesin bubut CNC</string>
+    <string name="_2_menulis_dasar_program_mesin_bubut_cnc">2.\tMenulis dasar program mesin bubut CNC</string>
+    <string name="setelah_mempelajari_media_ini_diharapkan">Setelah mempelajari media ini diharapkan :</string>
+    <string name="_1_siswa_mampu_menjelaskan_dasar_bagian_bagian_program_mesin_bubut_cnc">1.\tSiswa mampu menjelaskan dasar bagian-bagian program mesin bubut CNC</string>
+    <string name="_2_siswa_mampu_menulis_dasar_program_mesin_bubut_cnc">2.\tSiswa mampu menulis dasar program mesin bubut CNC</string>
 
 </resources>

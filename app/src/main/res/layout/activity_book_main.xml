@@ -23,110 +23,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_1sdp"
-        android:background="@color/background"
-        android:orientation="vertical"
-        android:padding="@dimen/_10sdp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clipToPadding="false"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/card1"
-                android:layout_width="@dimen/_120sdp"
-                android:layout_height="@dimen/_210sdp"
-                android:layout_margin="@dimen/_10sdp"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_64sdp"
-                        android:layout_height="@dimen/_64sdp"
-                        android:background="@drawable/card_green"
-                        android:padding="@dimen/_10sdp"
-                        android:src="@drawable/ic_book" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_10sdp"
-                        android:text="@string/materi_1"
-                        android:textStyle="bold" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/_1sdp"
-                        android:layout_margin="@dimen/_10sdp"
-                        android:background="@color/lightgray" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="@dimen/_5sdp"
-                        android:text="@string/mengidentifikasi_dan_menggunakan_mesin_bubut_cnc_tu_2a"
-                        android:textColor="@color/darkgrey" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/card2"
-                android:layout_width="@dimen/_120sdp"
-                android:layout_height="@dimen/_210sdp"
-                android:layout_margin="@dimen/_10sdp"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_64sdp"
-                        android:layout_height="@dimen/_64sdp"
-                        android:background="@drawable/card_green"
-                        android:padding="@dimen/_10sdp"
-                        android:src="@drawable/ic_book2" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_10sdp"
-                        android:text="@string/materi_2"
-                        android:textStyle="bold" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/_1sdp"
-                        android:layout_margin="@dimen/_10sdp"
-                        android:background="@color/lightgray" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="@dimen/_5sdp"
-                        android:text="@string/mengidentifikasi_dan_menggunakan_parameter_pemotongan_mesin_bubut_tu_2a"
-                        android:textColor="@color/darkgrey" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/txt22"
         android:layout_margin="@dimen/_1sdp"
         android:background="@color/background"
@@ -142,7 +38,7 @@
 
             <android.support.v7.widget.CardView
                 android:id="@+id/card3"
-                android:layout_width="@dimen/_120sdp"
+                android:layout_width="@dimen/_240sdp"
                 android:layout_height="@dimen/_210sdp"
                 android:layout_margin="@dimen/_10sdp"
                 android:clickable="true"
@@ -162,10 +58,11 @@
                         android:src="@drawable/ic_book3" />
 
                     <TextView
+                        android:textSize="@dimen/_13sdp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_10sdp"
-                        android:text="Materi 3"
+                        android:text="@string/materi"
                         android:textStyle="bold" />
 
                     <View
@@ -184,49 +81,6 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/card4"
-                android:layout_width="@dimen/_120sdp"
-                android:layout_height="@dimen/_210sdp"
-                android:layout_margin="@dimen/_10sdp"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/_64sdp"
-                        android:layout_height="@dimen/_64sdp"
-                        android:background="@drawable/card_green"
-                        android:padding="@dimen/_10sdp"
-                        android:src="@drawable/ic_book4" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_10sdp"
-                        android:text="@string/materi_4"
-                        android:textStyle="bold" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/_1sdp"
-                        android:layout_margin="@dimen/_10sdp"
-                        android:background="@color/lightgray" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="@dimen/_5sdp"
-                        android:text="@string/menerapkan_dan_menggunakan_teknik_pemesinan_bubut_tu_2a"
-                        android:textColor="@color/darkgrey" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
         </LinearLayout>
     </LinearLayout>
     </LinearLayout>

@@ -7,20 +7,22 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private CardView bookCard,kikdCard,quizCard,videoCard,profilCard;
+    private CardView bookCard,kikdCard,quizCard,videoCard,profilCard,latihanCard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        bookCard = (CardView) findViewById(R.id.book);
-        kikdCard = (CardView) findViewById(R.id.kikd);
-        quizCard = (CardView) findViewById(R.id.quiz);
-        videoCard = (CardView) findViewById(R.id.video);
-        profilCard = (CardView) findViewById(R.id.profil);
+        bookCard = (CardView) findViewById(R.id.cardmat);
+        kikdCard = (CardView) findViewById(R.id.cardkd);
+        quizCard = (CardView) findViewById(R.id.cardkuis);
+        latihanCard = (CardView) findViewById(R.id.cardlatihan);
+        videoCard = (CardView) findViewById(R.id.cardvid);
+        profilCard = (CardView) findViewById(R.id.cardprofil);
 
         bookCard.setOnClickListener(this);
         kikdCard.setOnClickListener(this);
         quizCard.setOnClickListener(this);
+        latihanCard.setOnClickListener(this);
         videoCard.setOnClickListener(this);
         profilCard.setOnClickListener(this);
 
@@ -31,11 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i ;
 
         switch (v.getId()){
-            case R.id.book : i = new Intent(this,BookMainActivity.class);startActivity(i);break;
-            case R.id.kikd : i = new Intent(this,BookActivity.class);startActivity(i);break;
-            case R.id.quiz : i = new Intent(this,QuizActivity.class);startActivity(i);break;
-            case R.id.video : i = new Intent(this,VideoActivity.class);startActivity(i);break;
-            case R.id.profil : i = new Intent(this,ProfilActivity.class);startActivity(i);break;
+            case R.id.cardmat : i = new Intent(this,BookMainActivity.class);startActivity(i);break;
+            case R.id.cardkd : i = new Intent(this,BookActivity.class);startActivity(i);break;
+            case R.id.cardkuis : i = new Intent(this,QuizActivity.class);startActivity(i);break;
+            case R.id.cardlatihan : i = new Intent(this,LatihanActivity.class);startActivity(i);break;
+            case R.id.cardvid : i = new Intent(this,VideoActivity.class);startActivity(i);break;
+            case R.id.cardprofil : i = new Intent(this,ProfilActivity.class);startActivity(i);break;
             default:break;
         }
 
